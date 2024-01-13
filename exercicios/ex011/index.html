@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas!!!</h1>
+    <p>
+        <pre>
+        Irei testar essas imagens, elas irão mudar de tamanhos com dispositivos diferentes
+        exemplos tv, celulares, ou você pode simplesmente alterar o tamanho do navegador!!! 
+    </pre>
+    </p>
+
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="imagem flexivel">
+        </picture>
+
+        <h1>Reproduzindo Audios!!</h1>
+
+        <p>
+            Vamos aprender a reproduzir audios pelo html!! <br><br>
+            Escolhi uma música do meu agrado para apresentar essa técnica
+        </p>
+        <img src="https://fthspatpress.com/wp-content/uploads/2016/03/Jonas_Blue_-_Fast_Car.jpg" alt="Foto do album jonas blue">
+        <br>
+        <br>
+        <audio src="midia/fast-car.mp3" autoplay controls ></audio>
+
+
+    </body>
+</html>

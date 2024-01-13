@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }    
+        
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a{
+            text-decoration: none;
+            color: red;
+        }
+
+        
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: aqua;
+        }
+
+        a::before{
+            content: '♫  ';
+            text-decoration: none;
+            color: black;
+        }
+
+        .especial{
+            background-color: aqua;
+        }
+
+
+        .especial::after {
+            content: '  [link]';
+            text-decoration: none;
+            color: black;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    
+    
+
+
+    <h1>Personalizando links</h1>
+
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=5yXQJBU8A28" target="_blank" class="especial">Fast Car</a></li>
+    <li><a href="https://www.youtube.com/watch?v=FRjOSmc01-M" target="_blank">Remind me to forget</a></li>
+    <li><a href="https://www.youtube.com/watch?v=TGx0rApSk6w" target="_blank">If i lose myself</a></li>
+</ul>
+
+</body>
+</html>
