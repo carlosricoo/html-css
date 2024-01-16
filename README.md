@@ -1,9 +1,9 @@
 # html-css
  Curso de HTML5 e CSS3
 
-<p>Estou aprendendo a usar o repositorio do Github</p>
+<p>Meu Repositório no GitHub!!! </p>
 
-<a href="https://carlosricoo.github.io/Projeto-Android/">Executar Projeto Android</a>
+<a href="https://carlosricoo.github.io/Projeto-Android/" target="_blank">Executar Projeto Android.</a>
 <br>
 <br>
-<a href="https://carlosricoo.github.io/projeto-cordel/">Executar Projeto Corderl</a>
+<a href="https://carlosricoo.github.io/projeto-cordel/" target="_blank" >Executar Projeto Cordel.</a>
