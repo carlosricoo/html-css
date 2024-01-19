@@ -11,4 +11,4 @@
 <a href="https://carlosricoo.github.io/projeto-cordel/" target="_blank" >Executar Projeto Cordel.</a>
 <br>
 <br>
-<a href="https://carlosricoo.github.io/projeto-social/" target="_blank" >Executar Projeto Cordel.</a>
+<a href="https://carlosricoo.github.io/projeto-social/" target="_blank" >Executar Projeto Redes sociais.</a>
