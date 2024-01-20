@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Novo Formulário!</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="ipais">Escolha o país para jogar!</label>
+            <select name="paises" id="ipais">
+                <option value="" selected >---Escolha aqui---</option>
+                <optgroup label="Sul-americanos" >
+                    <option value="BRA">Brasil</option>
+                    <option value="ARG">Argentina</option>
+                    <option value="PAR">Paraguai</option>
+                    <option value="URU">Uruguai</option>
+                </optgroup>
+                <optgroup label="Europeus">
+                    <option value="FRA">França</option>
+                    <option value="ALE">Alemanha</option>
+                    <option value="ESP">Espanha</option>                    
+                    <option value="ITA">Italia</option>
+                </optgroup>
+            </select> 
+        </p>
+            
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Destista</option>
+                <option>Advogado</option>
+                <option>Médico</option>
+                <option>Desenvolvedor</option>
+            </datalist>
+        </p>
+            
+            
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+    </form>
+
+
+
+</body>
+</html>
