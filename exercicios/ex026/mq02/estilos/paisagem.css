@@ -1,0 +1,10 @@
+@charset "UTF-8";
+  
+    /* CONFIGURAÇÕES PARA MODO PAISAGEM!!! */
+
+
+    body{
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: left bottom;
+    
+    }
