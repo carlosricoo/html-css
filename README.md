@@ -16,3 +16,6 @@ Executar <a href="https://carlosricoo.github.io/projeto-gta/" target="_blank"><s
 <br>
 <br>
 Executar <a href="https://carlosricoo.github.io/projeto-login/" target="_blank"><strong>Projeto Login</strong>.</a>
+<br>
+<br>
+Executar <a href="https://carlosricoo.github.io/Projeto-musica/" target="_blank"><strong>Projeto Musicas</strong>.</a>
